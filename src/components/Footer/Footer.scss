@@ -1,0 +1,22 @@
+.footer-container {
+  .footer {
+    background-color: #fff;
+    transition: all 0.5s;
+    padding: 1rem;
+
+    .icons-container {
+      display: grid;
+      grid-template-columns: repeat(3, 6rem);
+      justify-items: center;
+      justify-content: center;
+      .icon {
+        width: 4rem;
+      }
+    }
+  }
+
+  .dark {
+    background-color: #1a202c;
+    transition: all 0.5s;
+  }
+}
